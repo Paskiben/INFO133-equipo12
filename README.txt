@@ -3,4 +3,4 @@
 Integrantes:
   - Pascal Gabriel Salinas Schmidt
   - Renton Daniel Tapia Yefi
-  - Jaime Ignacio Gonzales Millaquipay
+  - Jaime Ignacio Gonzalez Millaquipay
