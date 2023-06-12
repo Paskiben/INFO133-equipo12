@@ -1,25 +1,25 @@
 <mxfile host="65bd71144e">
     <diagram id="XLQ9ZA8FXm9MJyRXNUf3" name="Page-1">
-        <mxGraphModel dx="1580" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1742" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="Nombre_prensa" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="3" value="nombre_prensa" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="110" y="50" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Ciudad" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="5" value="ciudad" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="440" y="-84.14" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Region" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="6" value="region" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="-4.140000000000001" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Pais" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="7" value="pais" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="440" y="-124.14" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Continente" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="8" value="continente" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="410" y="-180" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="13" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-160" y="240" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="Fundadores" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -31,22 +31,22 @@
                 <mxCell id="17" value="Prensa" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="90" y="90" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="Año Fundacion" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="19" value="año_fundacion" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry y="70" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="TIpo Cobertura" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="20" value="tipo_cobertura" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="50" y="30" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Ubicacion Geografica" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="-124.14" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="Red Social" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="25" value="Red_Social" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="395" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="Nombre Red Social" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="26" value="nombre_red_social" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="290" y="525" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="ID" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="28" value="id_fundadores" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-160" y="280" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="25" target="26" edge="1">
@@ -112,7 +112,7 @@
                 <mxCell id="54" value="Noticia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="420" y="180" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="URL_noticia" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="55" value="url_noticia" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="590" y="230" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.017;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="54" target="55">
@@ -121,13 +121,13 @@
                         <mxPoint x="418.57" y="115" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="58" value="XPATH fecha" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="58" value="xpath_fecha" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="570" y="300" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="XPATH titulo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="59" value="xpath_titulo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="470" y="110" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="XPATH contenido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="60" value="xpath_contenido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="560" y="140" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="" style="endArrow=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.831;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="54" target="58">
@@ -148,7 +148,7 @@
                         <mxPoint x="550.0000000000005" y="197.8" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="68" value="fundado por" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="68" value="fundan" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="-20" y="140" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="68">
@@ -190,7 +190,7 @@
                 <mxCell id="85" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="25" y="125" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="ubicado en" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="88" value="ubicado" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="190" y="-30" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="17" target="88">
@@ -247,7 +247,7 @@
                 <mxCell id="107" value="url_categoria" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="-10" y="760" width="70" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" value="sitio web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="108" value="Sitio_web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="-20" y="420" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="109" value="redirigen" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -292,7 +292,7 @@
                 <mxCell id="122" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="210" y="440" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" value="se divide en" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="124" value="contiene" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="5" y="540" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="125" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="124" target="106">
@@ -319,7 +319,7 @@
                 <mxCell id="131" value="url_principal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="-110" y="420" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="132" value="cordenadas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="132" value="id_ubicacion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="385" y="-230" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="133" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="132">
