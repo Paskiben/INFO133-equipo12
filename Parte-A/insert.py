@@ -1,12 +1,18 @@
-import mysql.connector
+import mariadb;
+import sys;
 
 # Conectarse a la base de datos
-conexion = mysql.connector.connect(
-    host="localhost",
-    user="usuario",
-    password="contraseña",
-    database="EQUIPO12"
-)
+try: 
+    conexion = mysql.connector.connect(
+        host="localhost",
+        user="usuario",
+        password="contraseña",
+        database="EQUIPO12"
+    )
+
+except mariadb.Error as e:
+    print("Ha sucedido un error al conectarse a Mariadb, intente nuevamente")
+    sys.exit(1)
 
 # Crear un cursor para ejecutar consultas SQL
 cursor = conexion.cursor()
