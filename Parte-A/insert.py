@@ -3,7 +3,7 @@ import sys;
 
 # Conectarse a la base de datos
 try: 
-    conexion = mysql.connector.connect(
+    conexion = mariadb.connect(
         host="localhost",
         user="usuario",
         password="contraseña",
