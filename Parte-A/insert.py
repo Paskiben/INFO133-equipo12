@@ -5,9 +5,9 @@ import sys;
 try: 
     conexion = mariadb.connect(
         host="localhost",
-        user="usuario",
-        password="contraseña",
-        database="EQUIPO12"
+        user="root",
+        password="123456",
+        database="parteB"
     )
 
 except mariadb.Error as e:
@@ -17,11 +17,13 @@ except mariadb.Error as e:
 # Crear un cursor para ejecutar consultas SQL
 cursor = conexion.cursor()
 
-# Obtener información del usuario
-nombre, ciudad, region, pais, continente, ano_creacion = input("Indica la información del nuevo medio que quieres añadir con el formato siguiente: nombre, ciudad, region, pais, continente, año de creación: ").split(",")
+# Obtener información del medio de prensa
+Pais, Continente, Region, Ciudad, Nombre_Prensa, Tipo_cobertura, id_prensa, year_fundation, url_principal = input("Indica la información del nuevo medio que quieres añadir con el formato siguiente: Pais, Continente, Region, Ciudad, Nombre_Prensa, Tipo_Cobertura, id_prensa, year_fundation, url_principal").split(",")
 
 url_noticia = input("Indica una URL de una noticia de este medio: ")
 xpath_titulo = input("Indica la expresión XPATH que permite leer el título de la fecha: ")
+
+cur.execute("INSERT INTO Prensa (Pais, Continente, Region, Ciudad, Nombre_Prensa, Tipo_cobertura, id_prensa, year_fundation, url_principal) VALUES (?, ?, ?, ?, ?, ?)",(infoArray[4], infoArray[5], infoArray[0], infoArray[2], infoArray[3], infoArray[1]))
 
 # Insertar el nuevo medio en la base de datos
 query = "INSERT INTO medios_prensa (nombre, ciudad, region, pais, continente, ano_creacion, url_noticia, xpath_titulo) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
