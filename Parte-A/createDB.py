@@ -48,7 +48,7 @@ cursor.execute(
 
 cursor.execute(
     """CREATE TABLE IF NOT EXISTS fundadores(
-        Nombre_fundadores VARCHAR(50),
+        Nombre_fundadorPrincipal VARCHAR(50),
         id_fundadores INT NOT NULL AUTO_INCREMENT,
         id_prensa INT,
         PRIMARY KEY(id_fundadores),
@@ -60,6 +60,7 @@ cursor.execute(
         xpath_titulo VARCHAR(50),
         xpath_contenido VARCHAR(50),
         xpath_fecha VARCHAR(50),
+        xpath_categoria VARCHAR(50),
         url_noticia VARCHAR(900),
         id_noticia INT NOT NULL AUTO_INCREMENT,
         id_prensa INT,
@@ -69,9 +70,9 @@ cursor.execute(
 
 cursor.execute(
     """CREATE TABLE IF NOT EXISTS categoria(
-        xpath_categoria VARCHAR(50),
         url_categoria VARCHAR(900),
         id_categoria INT NOT NULL AUTO_INCREMENT,
+        Nombre_categoria,
         id_prensa INT,
         PRIMARY KEY(id_categoria),
         FOREIGN KEY(id_prensa) REFERENCES prensa (id_prensa) 
